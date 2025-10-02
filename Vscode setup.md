@@ -1,3 +1,8 @@
+ _   _    _      _    __  __      __    ____   _   _     ____   ____  
+/ / / /  / /    / /  /  \/  /    /  \  /  _ \ / / / /   / __ \ /  _ \ 
+/ /_/ /  / /    / /  / /\// /   / /\ \ / / / // /_/ /  / /  / // / / /
+/____/   /_/    /_/  /_/  /_/  /_/  \_\/_/ /_/ \___/   /_/  /_//_/ /_/
+
 so today i'm here to help you how can i make this vscode look like this , so to do it ,
 
 First: Click the setting icon , click settings , in the search bar type "Caret animation" and click on the checkbox to enable it.
@@ -19,3 +24,4 @@ Second:
 Third:(\*Note)
 
 (\*)if you want you file bar look like me you must to install "custom css and js" . next you create a file "custom.css" and click thi link here and copy the source code to the custom.css(the source code can help you fix the bug animation ) : "https://github.com/haivan8082/The-tutorial-to-setup-the-vscode-theme/blob/main/custom.css"
+
