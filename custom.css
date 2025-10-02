@@ -1,0 +1,98 @@
+/* Tab chung */
+.monaco-workbench .part.editor .editor-group-container .title.tabs .tab {
+  min-width: 120px !important;
+  max-width: 180px !important;
+  background: rgba(40, 15, 50, 0.7) !important;
+  /* tím đậm trong suốt */
+  color: #f2d9ff !important;
+  font-weight: 500 !important;
+  border-radius: 12px !important;
+  margin: 2px 4px !important;
+  padding: 2px 10px !important;
+  transition: all 0.25s ease-in-out;
+  display: flex !important;
+  align-items: center !important;
+}
+
+/* Tab active (tím → hồng → đỏ neon) */
+.monaco-workbench .part.editor .editor-group-container .title.tabs .tab.active {
+  background: linear-gradient(90deg, #a832ff, #ff4fd8, #ff2f4f) !important;
+  color: #fff !important;
+  box-shadow: 0 0 14px #ff4fd866, 0 0 20px #ff2f4f55 !important;
+  border-radius: 14px !important;
+}
+
+/* Glow khi hover tab */
+.monaco-workbench .part.editor .editor-group-container .title.tabs .tab:hover {
+  box-shadow: 0 0 10px #ff4fd8aa, 0 0 16px #ff2f4faa !important;
+}
+
+/* Tên file trong tab */
+.monaco-workbench .part.editor .editor-group-container .title.tabs .tab .label-name {
+  color: inherit !important;
+  font-size: 12px !important;
+  margin-left: 6px !important;
+}
+
+/* Nút close (x) căn giữa + glow */
+.monaco-workbench .part.editor .editor-group-container .title.tabs .tab .action-label {
+  margin-left: auto !important;
+  margin-right: 6px !important;
+  font-size: 13px !important;
+  line-height: 1 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  opacity: 0.75;
+  transition: all 0.2s ease-in-out;
+}
+
+.monaco-workbench .part.editor .editor-group-container .title.tabs .tab .action-label:hover {
+  opacity: 1;
+  color: #ff2f6f !important;
+  /* Đỏ hồng neon */
+  text-shadow: 0 0 8px #ff4fd8, 0 0 12px #ff2f4f;
+  transform: scale(1.15);
+}
+
+/* Hiệu ứng fade-in cho sidebar */
+.monaco-workbench .part.sidebar {
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+/* Hiệu ứng tab mở */
+.monaco-workbench .part.editor .tab {
+  transition: all 0.4s ease-in-out;
+}
+
+.monaco-workbench .part.editor .tab.active {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
