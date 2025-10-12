@@ -1,7 +1,8 @@
 # The-tutorial-to-setup-the-vscode-theme
 thank you bro
 
-# In the setting.json you must to add your path have the file custom.css "{
+# In the setting.json you must to add your path have the file custom.css 
+"{
 "vscode_custom_css.imports": 
 [    "file:///C:/<path>/<path>/<path>/<path>/custom.css"  ]
 }
